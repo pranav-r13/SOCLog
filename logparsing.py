@@ -12,10 +12,7 @@ chrome_options = Options()
 # chrome_options.add_argument("--no-sandbox")
 # chrome_options.add_argument("--disable-dev-shm-usage")
 
-# Initialize WebDriver
-# driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
-# Specify the path to chromedriver.exe
 chromedriver_path = r'D:\SOC\chromedriver.exe'  # Replace with your actual path
 
 # Initialize the ChromeDriver
