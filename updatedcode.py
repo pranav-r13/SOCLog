@@ -55,16 +55,16 @@ log_dict = parse_fortisiem_log(log_message)
 log_dict2 = parse_fortisiem_log(logtest2)
 
 # Print the resulting dictionary
-customer = log_dict['customer']
-src = log_dict['event_data']['SourceAddress']
-dst = log_dict['event_data']['DestAddress']
-srcport = log_dict['event_data']['SourcePort']
-dstport = log_dict['event_data']['DestPort']
+# customer = log_dict['customer']
+# src = log_dict['event_data']['SourceAddress']
+# dst = log_dict['event_data']['DestAddress']
+# srcport = log_dict['event_data']['SourcePort']
+# dstport = log_dict['event_data']['DestPort']
 
-print("Customer Name: " + customer)
-print("Source IP: " + src)
-print("Destination IP: " + dst)
-print("Source Port: " + srcport)
-print("Destination Port: " + dstport)
+# print("Customer Name: " + customer)
+# print("Source IP: " + src)
+# print("Destination IP: " + dst)
+# print("Source Port: " + srcport)
+# print("Destination Port: " + dstport)
 
-# print(log_dict2)
+print(log_dict)
